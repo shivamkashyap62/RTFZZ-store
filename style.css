@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  width: 100%;
+  background-color: rgb(20, 22, 29);
+  align-items: center;
+  z-index: 100;
+  border-bottom: 2px solid #48abe0;
+}
+
+.search {
+  border-radius: 40px;
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  border-color: aqua;
+  outline: none;
+}
+
+.search-bar {
+  padding: 15px;
+  border-radius: 40px;
+  width: 80%;
+  border: 5px solid rgb(53, 71, 125);
+}
+
+.search-btn {
+  color: white;
+  background-color: rgb(38, 90, 187);
+  padding: 15px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart {
+  padding: 15px;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.cart a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-decoration: none;
+  height: 50px;
+  align-items: center;
+  width: 60%;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.nav-2 a {
+  text-decoration: none;
+  color: rgb(114, 110, 189);
+  padding: 10px;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: space-around;
+  transition: all 2s;
+  transition-timing-function: linear;
+}
+
+.container1 {
+  display: flex;
+  margin-top: 3%;
+  height: 50vh;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+.feat {
+  font-size: 38px;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: fit-content;
+  border-bottom: 1px solid #48abe0;
+}
+
+.desc1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10%;
+}
+
+.lap-pic {
+  height: 420px;
+  width: 60%;
+  border-radius: 92% 8% 70% 30% / 22% 35% 65% 78%;
+  background: rgb(10, 116, 101);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 116, 101, 1) 13%,
+    rgba(12, 97, 173, 1) 43%,
+    rgba(15, 95, 172, 1) 84%,
+    rgba(18, 164, 201, 1) 100%
+  );
+  width: 550px;
+  margin-left: 10px;
+  margin-right: 10%;
+  box-shadow: 0 0 50px #48abe0;
+}
+
+.apple-pic {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 5px;
+  border-radius: 40px;
+  transition: all 2s;
+}
+
+.desc1 h1 {
+  font-size: 40px;
+}
+
+.desc1 p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.head-pic {
+  height: 420px;
+  width: 60%;
+  border-radius: 92% 8% 70% 30% / 22% 35% 65% 78%;
+  background: rgb(50, 163, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 163, 147, 1) 5%,
+    rgba(27, 120, 204, 1) 40%,
+    rgba(39, 120, 199, 1) 84%,
+    rgba(39, 166, 199, 1) 100%
+  );
+  width: 550px;
+  box-shadow: 0 0 50px #48abe0;
+  margin-left: 10%;
+}
+
+.pod-pic {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 5px;
+  border-radius: 50px;
+  transition: all 2s;
+}
+.pod-pic:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 50px white;
+}
+.pod-pic {
+  transition: all 2s;
+}
+.iph-pic img {
+  border-radius: 50px;
+  position: relative;
+  margin-right: 320px;
+  box-shadow: 0 0 50px #48abe0;
+  transition: all 2s;
+}
+
+.featuring {
+  font-size: 32px;
+  width: 500px;
+  margin-top: 60px;
+  margin-left: 12%;
+}
+
+.buy-btn {
+  width: 30%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 40px;
+  outline: none;
+  font-size: large;
+  background-color: white;
+}
+
+.apple-pic:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 50px cadetblue;
+}
+
+.iphone-pic:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 50px gold;
+}
+
+.pod-pic:hover {
+  transform: scale(1.2);
+}
+
+.price {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.nav-2 a:active {
+  color: #48abe0;
+}
+
+.brand {
+  margin-top: 5%;
+  margin-left: 8%;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid #48abe0;
+}
+
+.laptops-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  width: 100%;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  list-style: none;
+  margin-top: 10%;
+  display: flex;
+}
+
+.box1 {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  list-style: none;
+}
+.specification {
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pic img {
+  width: 400px;
+  border-radius: 60px;
+}
+.model-mac {
+  margin-top: 10%;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.specification {
+  margin-top: 2%;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card1 {
+  width: 80%;
+  height: max-content;
+  padding: 50px;
+  list-style: none;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background: rgb(123, 49, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 49, 221, 1) 27%,
+    rgba(15, 113, 172, 1) 88%,
+    rgba(18, 154, 201, 1) 100%
+  );
+  border-radius: 40px;
+  box-shadow: 0 0 50px #48abe0;
+}
+
